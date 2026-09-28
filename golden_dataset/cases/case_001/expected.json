@@ -1,0 +1,34 @@
+{
+  "case_id": "case_001",
+  "expected": {
+    "deterministic_fields": [
+      "BRAND_NAME",
+      "PRODUCT_NAME",
+      "NET_QUANTITY",
+      "MRP",
+      "UNIT_SALE_PRICE",
+      "COUNTRY_OF_ORIGIN",
+      "CONSUMER_CARE_EMAIL"
+    ],
+    "normalized_values": {
+      "NET_QUANTITY": {
+        "value": 1.0,
+        "unit": "kg",
+        "standard_si_value": 1000.0,
+        "standard_si_unit": "g"
+      },
+      "MRP": {
+        "value": 180.0,
+        "currency": "INR",
+        "taxes_included": true
+      },
+      "UNIT_SALE_PRICE": {
+        "value": 180.0,
+        "unit": "kg"
+      }
+    },
+    "rule_verdict": "PASS",
+    "quality_tier": "PRISTINE"
+  },
+  "is_test_data": true
+}

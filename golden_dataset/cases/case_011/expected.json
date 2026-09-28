@@ -1,0 +1,20 @@
+{
+  "case_id": "case_011",
+  "expected": {
+    "deterministic_fields": [
+      "BRAND_NAME",
+      "NET_QUANTITY",
+      "MRP",
+      "IMPORTER_NAME"
+    ],
+    "missing_mandatory_fields": [
+      "COUNTRY_OF_ORIGIN"
+    ],
+    "rule_verdict": "FAIL",
+    "failing_rules": [
+      "PCR-2011-R06-1-F"
+    ],
+    "quality_tier": "GOOD"
+  },
+  "is_test_data": true
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "case_007",
+  "name": "Conflicting Retail Price Overprint",
+  "category": "ADJUDICATION_CONFLICT",
+  "description": "Two competing MRP values printed on same packaging surface triggering multi-declaration conflict flag.",
+  "commodity_type": "Snacks & Savouries",
+  "declarations": {
+    "BRAND_NAME": "TasteBites",
+    "PRODUCT_NAME": "Namkeen Mixture 400g",
+    "NET_QUANTITY": "400 g",
+    "MRP": "Rs. 110.00 (incl. of all taxes)",
+    "COMPETING_MRP": "Rs. 135.00 (incl. of all taxes)",
+    "DATE_OF_PACKING": "02/2026",
+    "MANUFACTURER_NAME": "TasteBites Snacks Ltd, Indore",
+    "COUNTRY_OF_ORIGIN": "India",
+    "CONSUMER_CARE_EMAIL": "care@tastebites.in",
+    "UNIT_SALE_PRICE": "Rs. 0.28 / g"
+  },
+  "dataset_version": "1.0.0",
+  "is_test_data": true,
+  "legal_disclaimer": "TEST / NON-PRODUCTION DATASET FOR SOFTWARE BENCHMARKING ONLY."
+}

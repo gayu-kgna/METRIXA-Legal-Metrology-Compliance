@@ -1,0 +1,23 @@
+{
+  "case_id": "case_008",
+  "name": "Multiple Quantities Declaration",
+  "category": "NORMALIZATION_WEIGHTS",
+  "description": "Canned rasgulla declaring Net Quantity, Drained Weight, and Gross Weight; testing correct statutory extraction.",
+  "commodity_type": "Canned Food",
+  "declarations": {
+    "BRAND_NAME": "SweetHeritage",
+    "PRODUCT_NAME": "Kolkata Rasgulla 1kg Can",
+    "NET_QUANTITY": "1 kg",
+    "DRAINED_WEIGHT": "500 g",
+    "GROSS_WEIGHT": "1250 g",
+    "MRP": "Rs. 240.00 (incl. of all taxes)",
+    "DATE_OF_PACKING": "01/2026",
+    "MANUFACTURER_NAME": "Heritage Sweets Ltd, Kolkata 700001",
+    "COUNTRY_OF_ORIGIN": "India",
+    "CONSUMER_CARE_EMAIL": "info@heritagesweets.in",
+    "UNIT_SALE_PRICE": "Rs. 240.00 / kg"
+  },
+  "dataset_version": "1.0.0",
+  "is_test_data": true,
+  "legal_disclaimer": "TEST / NON-PRODUCTION DATASET FOR SOFTWARE BENCHMARKING ONLY."
+}

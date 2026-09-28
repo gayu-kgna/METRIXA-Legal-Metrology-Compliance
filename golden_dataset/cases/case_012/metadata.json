@@ -1,0 +1,23 @@
+{
+  "case_id": "case_012",
+  "name": "Comprehensive Consumer Care Cell",
+  "category": "COMPLIANT_CONSUMER_CARE",
+  "description": "Label displaying exhaustive tripartite consumer grievance coordinates under Rule 6(1)(g).",
+  "commodity_type": "Personal Care",
+  "declarations": {
+    "BRAND_NAME": "Metrixa Derma",
+    "PRODUCT_NAME": "Moisturizing Cream 100g",
+    "NET_QUANTITY": "100 g",
+    "MRP": "Rs. 220.00 (incl. of all taxes)",
+    "DATE_OF_PACKING": "01/2026",
+    "MANUFACTURER_NAME": "Derma Care Ltd, Baddi, HP",
+    "COUNTRY_OF_ORIGIN": "India",
+    "CONSUMER_CARE_EMAIL": "care@metrixaderma.in",
+    "CONSUMER_CARE_PHONE": "1800-444-8899",
+    "CONSUMER_CARE_ADDRESS": "Consumer Cell, Box 55, South Delhi 110017",
+    "UNIT_SALE_PRICE": "Rs. 2.20 / g"
+  },
+  "dataset_version": "1.0.0",
+  "is_test_data": true,
+  "legal_disclaimer": "TEST / NON-PRODUCTION DATASET FOR SOFTWARE BENCHMARKING ONLY."
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "case_009",
+  "name": "MRP Currency Variant & USP",
+  "category": "NORMALIZATION_MRP_USP",
+  "description": "Label declaring price using currency symbol variant 'M.R.P. ` 250.00 (Inclusive of all taxes)' alongside Unit Sale Price.",
+  "commodity_type": "Packaged Food",
+  "declarations": {
+    "BRAND_NAME": "NutriFlakes",
+    "PRODUCT_NAME": "Whole Wheat Corn Flakes 500g",
+    "NET_QUANTITY": "500 g",
+    "MRP": "M.R.P. Rs 250.00 (INCLUSIVE OF ALL TAXES)",
+    "UNIT_SALE_PRICE": "Rs. 0.50 per gram",
+    "DATE_OF_PACKING": "03/2026",
+    "MANUFACTURER_NAME": "Nutri Grain Ltd, Ghaziabad",
+    "COUNTRY_OF_ORIGIN": "India",
+    "CONSUMER_CARE_EMAIL": "support@nutrigrain.in"
+  },
+  "dataset_version": "1.0.0",
+  "is_test_data": true,
+  "legal_disclaimer": "TEST / NON-PRODUCTION DATASET FOR SOFTWARE BENCHMARKING ONLY."
+}

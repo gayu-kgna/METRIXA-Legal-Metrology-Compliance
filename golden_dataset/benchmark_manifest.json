@@ -1,0 +1,145 @@
+{
+  "dataset_name": "Metrixa Golden Dataset Benchmark Suite",
+  "version": "1.0.0",
+  "created_date": "2026-09-23",
+  "total_cases": 15,
+  "purpose": "Deterministic benchmarking of entity parsing, normalization, geometry, and legal rules.",
+  "marker": "TEST / NON-PRODUCTION",
+  "cases": [
+    {
+      "case_id": "case_001",
+      "name": "Standard PCR Compliant Label",
+      "category": "COMPLIANT_BASELINE",
+      "relative_dir": "cases/case_001",
+      "image_filename": "package_front.png",
+      "expected_verdict": "PASS",
+      "is_test_case": true
+    },
+    {
+      "case_id": "case_002",
+      "name": "Missing Maximum Retail Price",
+      "category": "DEFECT_MISSING_DECLARATION",
+      "relative_dir": "cases/case_002",
+      "image_filename": "package_front.png",
+      "expected_verdict": "FAIL",
+      "is_test_case": true
+    },
+    {
+      "case_id": "case_003",
+      "name": "Low Resolution Package Label",
+      "category": "PERCEPTION_LOW_RESOLUTION",
+      "relative_dir": "cases/case_003",
+      "image_filename": "package_front.png",
+      "expected_verdict": "N/A",
+      "is_test_case": true
+    },
+    {
+      "case_id": "case_004",
+      "name": "Motion Blurred Capture",
+      "category": "PERCEPTION_BLUR",
+      "relative_dir": "cases/case_004",
+      "image_filename": "package_front.png",
+      "expected_verdict": "N/A",
+      "is_test_case": true
+    },
+    {
+      "case_id": "case_005",
+      "name": "Reflective Specular Glare",
+      "category": "PERCEPTION_GLARE",
+      "relative_dir": "cases/case_005",
+      "image_filename": "package_front.png",
+      "expected_verdict": "N/A",
+      "is_test_case": true
+    },
+    {
+      "case_id": "case_006",
+      "name": "Underexposed Low-Light Capture",
+      "category": "PERCEPTION_UNDEREXPOSED",
+      "relative_dir": "cases/case_006",
+      "image_filename": "package_front.png",
+      "expected_verdict": "N/A",
+      "is_test_case": true
+    },
+    {
+      "case_id": "case_007",
+      "name": "Conflicting Retail Price Overprint",
+      "category": "ADJUDICATION_CONFLICT",
+      "relative_dir": "cases/case_007",
+      "image_filename": "package_front.png",
+      "expected_verdict": "REVIEW",
+      "is_test_case": true
+    },
+    {
+      "case_id": "case_008",
+      "name": "Multiple Quantities Declaration",
+      "category": "NORMALIZATION_WEIGHTS",
+      "relative_dir": "cases/case_008",
+      "image_filename": "package_front.png",
+      "expected_verdict": "PASS",
+      "is_test_case": true
+    },
+    {
+      "case_id": "case_009",
+      "name": "MRP Currency Variant & USP",
+      "category": "NORMALIZATION_MRP_USP",
+      "relative_dir": "cases/case_009",
+      "image_filename": "package_front.png",
+      "expected_verdict": "PASS",
+      "is_test_case": true
+    },
+    {
+      "case_id": "case_010",
+      "name": "Distinct Manufacturer and Packer",
+      "category": "ENTITIES_MULTI_PARTY",
+      "relative_dir": "cases/case_010",
+      "image_filename": "package_front.png",
+      "expected_verdict": "PASS",
+      "is_test_case": true
+    },
+    {
+      "case_id": "case_011",
+      "name": "Imported Commodity Missing Origin",
+      "category": "DEFECT_MISSING_ORIGIN",
+      "relative_dir": "cases/case_011",
+      "image_filename": "package_front.png",
+      "expected_verdict": "FAIL",
+      "is_test_case": true
+    },
+    {
+      "case_id": "case_012",
+      "name": "Comprehensive Consumer Care Cell",
+      "category": "COMPLIANT_CONSUMER_CARE",
+      "relative_dir": "cases/case_012",
+      "image_filename": "package_front.png",
+      "expected_verdict": "PASS",
+      "is_test_case": true
+    },
+    {
+      "case_id": "case_013",
+      "name": "Multi-Region Distributed Layout",
+      "category": "GEOMETRY_MULTI_REGION",
+      "relative_dir": "cases/case_013",
+      "image_filename": "package_front.png",
+      "expected_verdict": "PASS",
+      "is_test_case": true
+    },
+    {
+      "case_id": "case_014",
+      "name": "OCR Character Confusion Adjudication",
+      "category": "ADJUDICATION_CONFUSION",
+      "relative_dir": "cases/case_014",
+      "image_filename": "package_front.png",
+      "expected_verdict": "REVIEW",
+      "is_test_case": true
+    },
+    {
+      "case_id": "case_015",
+      "name": "Manual Observation Fallback",
+      "category": "ADJUDICATION_MANUAL_ENTRY",
+      "relative_dir": "cases/case_015",
+      "image_filename": "package_front.png",
+      "expected_verdict": "PASS",
+      "is_test_case": true
+    }
+  ]
+}

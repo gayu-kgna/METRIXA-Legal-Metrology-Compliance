@@ -1,0 +1,23 @@
+{
+  "case_id": "case_003",
+  "expected": {
+    "deterministic_fields": [
+      "BRAND_NAME",
+      "NET_QUANTITY",
+      "MRP"
+    ],
+    "normalized_values": {
+      "NET_QUANTITY": {
+        "value": 50.0,
+        "unit": "g"
+      },
+      "MRP": {
+        "value": 20.0,
+        "currency": "INR"
+      }
+    },
+    "quality_alert": "LOW_RESOLUTION_ESTIMATE",
+    "quality_tier": "DEGRADED"
+  },
+  "is_test_data": true
+}

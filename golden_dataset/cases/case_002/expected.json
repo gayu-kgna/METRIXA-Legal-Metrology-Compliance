@@ -1,0 +1,28 @@
+{
+  "case_id": "case_002",
+  "expected": {
+    "deterministic_fields": [
+      "BRAND_NAME",
+      "PRODUCT_NAME",
+      "NET_QUANTITY",
+      "COUNTRY_OF_ORIGIN"
+    ],
+    "missing_mandatory_fields": [
+      "MRP"
+    ],
+    "normalized_values": {
+      "NET_QUANTITY": {
+        "value": 1.0,
+        "unit": "l",
+        "standard_si_value": 1000.0,
+        "standard_si_unit": "ml"
+      }
+    },
+    "rule_verdict": "FAIL",
+    "failing_rules": [
+      "PCR-2011-R06-1-DA"
+    ],
+    "quality_tier": "GOOD"
+  },
+  "is_test_data": true
+}

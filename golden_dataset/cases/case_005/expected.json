@@ -1,0 +1,13 @@
+{
+  "case_id": "case_005",
+  "expected": {
+    "deterministic_fields": [
+      "BRAND_NAME",
+      "NET_QUANTITY",
+      "MRP"
+    ],
+    "quality_alert": "SPECULAR_GLARE_WARNING",
+    "quality_tier": "GLARE_DEFECT"
+  },
+  "is_test_data": true
+}

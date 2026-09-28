@@ -1,0 +1,51 @@
+# Git
+.git
+.gitignore
+
+# Python virtual environment and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Test caches and reports
+.pytest_cache/
+.coverage
+htmlcov/
+tests/
+
+# Storage & Uploads
+storage/
+uploads/
+reports/
+logs/
+*.log
+
+# Local secrets & env files
+.env
+.env.*
+!.env.example
+
+# Local Windows binaries & installers
+tesseract-setup.exe
+tesseract_bin/
+7za920.zip
+7za_bin/
+7za23/
+7z_full/
+7zr.exe
+*.7z
+*.exe
+
+# Test/sample images and artifacts
+*.jpg
+*.jpeg
+*.png
+*.pdf
+
+# IDE
+.vscode/
+.idea/

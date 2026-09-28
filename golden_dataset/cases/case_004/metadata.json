@@ -1,0 +1,18 @@
+{
+  "case_id": "case_004",
+  "name": "Motion Blurred Capture",
+  "category": "PERCEPTION_BLUR",
+  "description": "Simulated camera motion blur with Laplacian variance below inspection readiness threshold.",
+  "commodity_type": "Beverages",
+  "declarations": {
+    "BRAND_NAME": "Himalayan Spring",
+    "PRODUCT_NAME": "Natural Mineral Water 500ml",
+    "NET_QUANTITY": "500 ml",
+    "MRP": "Rs. 30.00",
+    "MANUFACTURER_NAME": "Spring Springs Ltd, Dehradun",
+    "COUNTRY_OF_ORIGIN": "India"
+  },
+  "dataset_version": "1.0.0",
+  "is_test_data": true,
+  "legal_disclaimer": "TEST / NON-PRODUCTION DATASET FOR SOFTWARE BENCHMARKING ONLY."
+}

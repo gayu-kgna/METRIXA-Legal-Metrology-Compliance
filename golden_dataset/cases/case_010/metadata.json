@@ -1,0 +1,22 @@
+{
+  "case_id": "case_010",
+  "name": "Distinct Manufacturer and Packer",
+  "category": "ENTITIES_MULTI_PARTY",
+  "description": "Commodity declaring both primary manufacturing entity and distinct contract packaging facility.",
+  "commodity_type": "Dry Fruits",
+  "declarations": {
+    "BRAND_NAME": "FarmSelect",
+    "PRODUCT_NAME": "Californian Almonds 250g",
+    "NET_QUANTITY": "250 g",
+    "MRP": "Rs. 350.00 (incl. of all taxes)",
+    "DATE_OF_PACKING": "02/2026",
+    "MANUFACTURER_NAME": "Valley Agro Farms, Nashik",
+    "PACKER_NAME": "FastPack Logistics Ltd, Navi Mumbai",
+    "COUNTRY_OF_ORIGIN": "India",
+    "CONSUMER_CARE_EMAIL": "care@farmselect.in",
+    "UNIT_SALE_PRICE": "Rs. 1.40 / g"
+  },
+  "dataset_version": "1.0.0",
+  "is_test_data": true,
+  "legal_disclaimer": "TEST / NON-PRODUCTION DATASET FOR SOFTWARE BENCHMARKING ONLY."
+}

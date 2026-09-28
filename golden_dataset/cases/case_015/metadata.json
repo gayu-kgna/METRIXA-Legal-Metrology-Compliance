@@ -1,0 +1,22 @@
+{
+  "case_id": "case_015",
+  "name": "Manual Observation Fallback",
+  "category": "ADJUDICATION_MANUAL_ENTRY",
+  "description": "Unscannable damaged barcode label where field inspector enters manual statutory observation with officer rationale.",
+  "commodity_type": "Hardware & Tools",
+  "declarations": {
+    "BRAND_NAME": "IronCraft",
+    "PRODUCT_NAME": "Stainless Steel Fasteners Set 200pcs",
+    "NET_QUANTITY": "200 N",
+    "MRP": "Rs. 480.00 (incl. of all taxes)",
+    "DATE_OF_PACKING": "01/2026",
+    "MANUFACTURER_NAME": "IronCraft Industrial Works, Ludhiana 141003",
+    "COUNTRY_OF_ORIGIN": "India",
+    "CONSUMER_CARE_EMAIL": "sales@ironcraft.in",
+    "UNIT_SALE_PRICE": "Rs. 2.40 per unit",
+    "MANUAL_ENTRY_REASON": "Barcode and price tag partially rubbed off in transit; officer manually verified from shelf SKU label"
+  },
+  "dataset_version": "1.0.0",
+  "is_test_data": true,
+  "legal_disclaimer": "TEST / NON-PRODUCTION DATASET FOR SOFTWARE BENCHMARKING ONLY."
+}

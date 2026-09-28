@@ -1,0 +1,134 @@
+# ==========================================
+# METRIXA - Full Stack Git Ignore
+# ==========================================
+
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+ENV/
+
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ------------------------------
+# Environment / Secrets
+# ------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------
+# Node / Frontend
+# ------------------------------
+node_modules/
+frontend/node_modules/
+
+dist/
+dist-ssr/
+frontend/dist/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+*.local
+
+# ------------------------------
+# IDE / Editor
+# ------------------------------
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ------------------------------
+# OS
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Generated Application Storage
+# ------------------------------
+storage/
+backend/storage/
+
+# ------------------------------
+# Uploaded Images
+# ------------------------------
+uploads/
+backend/uploads/
+
+# ------------------------------
+# Generated Reports
+# ------------------------------
+reports/
+backend/reports/
+
+# ------------------------------
+# Logs
+# ------------------------------
+logs/
+*.log
+
+# ------------------------------
+# Database / Local DB
+# ------------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# ------------------------------
+# Temporary Files
+# ------------------------------
+*.tmp
+*.temp
+
+# ------------------------------
+# Process Files
+# ------------------------------
+*.pid
+# Local Tesseract installer/binaries
+backend/tesseract-setup.exe
+backend/tesseract_bin/
+backend/7za920.zip
+backend/7za_bin/
+backend/7za23/
+backend/7z_full/
+backend/7zr.exe
+backend/*.7z
+
+# Generated inspection artifacts
+/*.pdf
+
+# Real packaging samples - keep local unless explicitly selected
+/maggi*.jpeg
+/maggi*.pdf
+/mb-*.pdf
+/mb-*.jpg
+/nabati*.jpeg
+/nabati*.jpg
+/nabati*.pdf
+/new report.pdf
+
+# Local validation reports & scratch scripts
+*VALIDATION_REPORT.md
+backend/scripts/run_*_validation.py

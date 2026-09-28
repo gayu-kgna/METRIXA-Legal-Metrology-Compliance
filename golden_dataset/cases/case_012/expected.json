@@ -1,0 +1,16 @@
+{
+  "case_id": "case_012",
+  "expected": {
+    "deterministic_fields": [
+      "BRAND_NAME",
+      "NET_QUANTITY",
+      "MRP",
+      "CONSUMER_CARE_EMAIL",
+      "CONSUMER_CARE_PHONE",
+      "CONSUMER_CARE_ADDRESS"
+    ],
+    "rule_verdict": "PASS",
+    "quality_tier": "PRISTINE"
+  },
+  "is_test_data": true
+}

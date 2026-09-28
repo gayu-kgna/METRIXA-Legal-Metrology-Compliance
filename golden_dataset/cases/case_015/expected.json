@@ -1,0 +1,22 @@
+{
+  "case_id": "case_015",
+  "expected": {
+    "observation_source": "OFFICER_INPUT",
+    "deterministic_fields": [
+      "BRAND_NAME",
+      "PRODUCT_NAME",
+      "NET_QUANTITY",
+      "MRP",
+      "COUNTRY_OF_ORIGIN"
+    ],
+    "normalized_values": {
+      "NET_QUANTITY": {
+        "value": 200.0,
+        "unit": "units"
+      }
+    },
+    "rule_verdict": "PASS",
+    "quality_tier": "MANUAL_FALLBACK"
+  },
+  "is_test_data": true
+}

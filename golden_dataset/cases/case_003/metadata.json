@@ -1,0 +1,18 @@
+{
+  "case_id": "case_003",
+  "name": "Low Resolution Package Label",
+  "category": "PERCEPTION_LOW_RESOLUTION",
+  "description": "Extremely pixelated label image testing image preprocessor resolution alerts and robust parsing under noise.",
+  "commodity_type": "Packaged Food",
+  "declarations": {
+    "BRAND_NAME": "CrispySnax",
+    "PRODUCT_NAME": "Spicy Potato Chips 50g",
+    "NET_QUANTITY": "50 g",
+    "MRP": "Rs. 20.00",
+    "MANUFACTURER_NAME": "Snax Ltd, Delhi 110020",
+    "COUNTRY_OF_ORIGIN": "India"
+  },
+  "dataset_version": "1.0.0",
+  "is_test_data": true,
+  "legal_disclaimer": "TEST / NON-PRODUCTION DATASET FOR SOFTWARE BENCHMARKING ONLY."
+}

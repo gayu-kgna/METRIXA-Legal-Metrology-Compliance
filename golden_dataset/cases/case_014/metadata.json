@@ -1,0 +1,22 @@
+{
+  "case_id": "case_014",
+  "name": "OCR Character Confusion Adjudication",
+  "category": "ADJUDICATION_CONFUSION",
+  "description": "Simulated OCR alphanumeric character confusion ('Rs. 4S0.00' instead of 'Rs. 450.00') demonstrating human adjudication workflow.",
+  "commodity_type": "Beverages",
+  "declarations": {
+    "BRAND_NAME": "Assam Royale",
+    "PRODUCT_NAME": "CTC Black Tea 500g",
+    "NET_QUANTITY": "500 g",
+    "MRP": "Rs. 450.00 (incl. of all taxes)",
+    "RAW_OCR_SNIPPET": "Rs. 4S0.00 (INCL OF TAXES)",
+    "DATE_OF_PACKING": "02/2026",
+    "MANUFACTURER_NAME": "Assam Royale Estates Ltd, Dibrugarh",
+    "COUNTRY_OF_ORIGIN": "India",
+    "CONSUMER_CARE_EMAIL": "support@assamroyale.in",
+    "UNIT_SALE_PRICE": "Rs. 0.90 / g"
+  },
+  "dataset_version": "1.0.0",
+  "is_test_data": true,
+  "legal_disclaimer": "TEST / NON-PRODUCTION DATASET FOR SOFTWARE BENCHMARKING ONLY."
+}

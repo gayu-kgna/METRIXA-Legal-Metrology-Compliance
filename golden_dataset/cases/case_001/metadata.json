@@ -1,0 +1,25 @@
+{
+  "case_id": "case_001",
+  "name": "Standard PCR Compliant Label",
+  "category": "COMPLIANT_BASELINE",
+  "description": "Premium Basmati Rice package containing all mandatory Rule 6 declarations with clear visual contrast and standard formatting.",
+  "commodity_type": "Packaged Food",
+  "declarations": {
+    "BRAND_NAME": "Metrixa Organics",
+    "PRODUCT_NAME": "Premium Royal Basmati Rice 1kg",
+    "GENERIC_NAME": "Basmati Rice",
+    "NET_QUANTITY": "1 kg",
+    "MRP": "Rs. 180.00 (incl. of all taxes)",
+    "UNIT_SALE_PRICE": "Rs. 180.00 / kg",
+    "DATE_OF_PACKING": "01/2026",
+    "EXPIRY_DATE": "01/2028",
+    "BATCH_NUMBER": "LOT-BR-2026-01",
+    "MANUFACTURER_NAME": "Metrixa Food Estates Ltd, Sonipat, Haryana 131101",
+    "COUNTRY_OF_ORIGIN": "India",
+    "CONSUMER_CARE_EMAIL": "care@metrixafoods.in",
+    "CONSUMER_CARE_PHONE": "1800-123-4567"
+  },
+  "dataset_version": "1.0.0",
+  "is_test_data": true,
+  "legal_disclaimer": "TEST / NON-PRODUCTION DATASET FOR SOFTWARE BENCHMARKING ONLY."
+}

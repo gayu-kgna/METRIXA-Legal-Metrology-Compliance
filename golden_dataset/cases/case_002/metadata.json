@@ -1,0 +1,20 @@
+{
+  "case_id": "case_002",
+  "name": "Missing Maximum Retail Price",
+  "category": "DEFECT_MISSING_DECLARATION",
+  "description": "Edible sunflower oil package with net quantity and manufacturer present, but completely omitting mandatory Maximum Retail Price.",
+  "commodity_type": "Edible Oil",
+  "declarations": {
+    "BRAND_NAME": "SunGold Pure",
+    "PRODUCT_NAME": "Refined Sunflower Oil 1 Litre",
+    "GENERIC_NAME": "Sunflower Oil",
+    "NET_QUANTITY": "1 L",
+    "DATE_OF_PACKING": "02/2026",
+    "MANUFACTURER_NAME": "SunGold Refineries Ltd, Kandla, Gujarat",
+    "COUNTRY_OF_ORIGIN": "India",
+    "CONSUMER_CARE_EMAIL": "support@sungold.in"
+  },
+  "dataset_version": "1.0.0",
+  "is_test_data": true,
+  "legal_disclaimer": "TEST / NON-PRODUCTION DATASET FOR SOFTWARE BENCHMARKING ONLY."
+}

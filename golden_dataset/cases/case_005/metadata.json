@@ -1,0 +1,19 @@
+{
+  "case_id": "case_005",
+  "name": "Reflective Specular Glare",
+  "category": "PERCEPTION_GLARE",
+  "description": "Laminated metallic foil pouch exhibiting high-intensity flash glare hotspot occluding consumer care info.",
+  "commodity_type": "Packaged Food",
+  "declarations": {
+    "BRAND_NAME": "ChocoDelight",
+    "PRODUCT_NAME": "Roasted Almond Chocolate Bar 100g",
+    "NET_QUANTITY": "100 g",
+    "MRP": "Rs. 99.00",
+    "MANUFACTURER_NAME": "Choco Works Ltd, Mumbai",
+    "COUNTRY_OF_ORIGIN": "India",
+    "CONSUMER_CARE_EMAIL": "help@chocodelight.in"
+  },
+  "dataset_version": "1.0.0",
+  "is_test_data": true,
+  "legal_disclaimer": "TEST / NON-PRODUCTION DATASET FOR SOFTWARE BENCHMARKING ONLY."
+}

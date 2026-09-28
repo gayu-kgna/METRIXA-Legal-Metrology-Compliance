@@ -1,0 +1,14 @@
+{
+  "case_id": "case_004",
+  "expected": {
+    "deterministic_fields": [
+      "BRAND_NAME",
+      "NET_QUANTITY",
+      "MRP"
+    ],
+    "quality_alert": "HIGH_BLUR_DETECTED",
+    "blur_score_tier": "FAIL",
+    "quality_tier": "BLURRED"
+  },
+  "is_test_data": true
+}

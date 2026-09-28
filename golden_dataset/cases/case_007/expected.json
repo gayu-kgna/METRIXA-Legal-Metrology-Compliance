@@ -1,0 +1,15 @@
+{
+  "case_id": "case_007",
+  "expected": {
+    "conflict_detected": true,
+    "conflict_field": "MRP",
+    "divergent_values": [
+      110.0,
+      135.0
+    ],
+    "rule_verdict": "REVIEW",
+    "requires_adjudication": true,
+    "quality_tier": "GOOD"
+  },
+  "is_test_data": true
+}

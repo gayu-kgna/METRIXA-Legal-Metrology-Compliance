@@ -1,0 +1,20 @@
+{
+  "case_id": "case_013",
+  "expected": {
+    "multi_region_quadrants": [
+      "TOP_LEFT",
+      "TOP_RIGHT",
+      "BOTTOM_LEFT",
+      "BOTTOM_RIGHT"
+    ],
+    "deterministic_fields": [
+      "BRAND_NAME",
+      "PRODUCT_NAME",
+      "NET_QUANTITY",
+      "MRP"
+    ],
+    "rule_verdict": "PASS",
+    "quality_tier": "GOOD"
+  },
+  "is_test_data": true
+}

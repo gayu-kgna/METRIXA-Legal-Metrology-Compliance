@@ -1,0 +1,13 @@
+{
+  "case_id": "case_014",
+  "expected": {
+    "ocr_confusion_detected": true,
+    "target_field": "MRP",
+    "raw_candidate": "Rs. 4S0.00 (INCL OF TAXES)",
+    "corrected_value": 450.0,
+    "rule_verdict": "REVIEW",
+    "adjudication_type": "TEXT_CORRECTION",
+    "quality_tier": "DEGRADED"
+  },
+  "is_test_data": true
+}

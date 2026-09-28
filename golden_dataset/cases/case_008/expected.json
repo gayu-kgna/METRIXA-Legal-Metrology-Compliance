@@ -1,0 +1,21 @@
+{
+  "case_id": "case_008",
+  "expected": {
+    "deterministic_fields": [
+      "BRAND_NAME",
+      "NET_QUANTITY",
+      "MRP"
+    ],
+    "normalized_values": {
+      "NET_QUANTITY": {
+        "value": 1.0,
+        "unit": "kg",
+        "standard_si_value": 1000.0,
+        "standard_si_unit": "g"
+      }
+    },
+    "rule_verdict": "PASS",
+    "quality_tier": "PRISTINE"
+  },
+  "is_test_data": true
+}

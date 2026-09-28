@@ -1,0 +1,25 @@
+{
+  "case_id": "case_009",
+  "expected": {
+    "deterministic_fields": [
+      "BRAND_NAME",
+      "NET_QUANTITY",
+      "MRP",
+      "UNIT_SALE_PRICE"
+    ],
+    "normalized_values": {
+      "MRP": {
+        "value": 250.0,
+        "currency": "INR",
+        "taxes_included": true
+      },
+      "UNIT_SALE_PRICE": {
+        "value": 0.5,
+        "unit": "g"
+      }
+    },
+    "rule_verdict": "PASS",
+    "quality_tier": "PRISTINE"
+  },
+  "is_test_data": true
+}

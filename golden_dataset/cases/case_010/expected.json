@@ -1,0 +1,15 @@
+{
+  "case_id": "case_010",
+  "expected": {
+    "deterministic_fields": [
+      "BRAND_NAME",
+      "NET_QUANTITY",
+      "MRP",
+      "MANUFACTURER_NAME",
+      "PACKER_NAME"
+    ],
+    "rule_verdict": "PASS",
+    "quality_tier": "PRISTINE"
+  },
+  "is_test_data": true
+}

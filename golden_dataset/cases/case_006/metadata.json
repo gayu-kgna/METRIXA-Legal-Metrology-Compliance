@@ -1,0 +1,18 @@
+{
+  "case_id": "case_006",
+  "name": "Underexposed Low-Light Capture",
+  "category": "PERCEPTION_UNDEREXPOSED",
+  "description": "Warehouse twilight capture exhibiting sub-threshold luminance testing contrast stretching preprocessor.",
+  "commodity_type": "Household Goods",
+  "declarations": {
+    "BRAND_NAME": "CleanGleam",
+    "PRODUCT_NAME": "Dishwash Gel Lemon 250ml",
+    "NET_QUANTITY": "250 ml",
+    "MRP": "Rs. 65.00",
+    "MANUFACTURER_NAME": "CleanHome Corp, Pune 411001",
+    "COUNTRY_OF_ORIGIN": "India"
+  },
+  "dataset_version": "1.0.0",
+  "is_test_data": true,
+  "legal_disclaimer": "TEST / NON-PRODUCTION DATASET FOR SOFTWARE BENCHMARKING ONLY."
+}

@@ -1,0 +1,118 @@
+{
+  "benchmark_timestamp": "2026-09-28T16:19:58.852576+00:00",
+  "duration_seconds": 0.015,
+  "total_cases_evaluated": 15,
+  "cases_passed": 15,
+  "cases_failed": 0,
+  "accuracy_pct": 100.0,
+  "field_matches": 110,
+  "normalization_matches": 15,
+  "pipeline_errors": 0,
+  "details": [
+    {
+      "case_id": "case_001",
+      "name": "Standard PCR Compliant Label",
+      "category": "COMPLIANT_BASELINE",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "case_id": "case_002",
+      "name": "Missing Maximum Retail Price",
+      "category": "DEFECT_MISSING_DECLARATION",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "case_id": "case_003",
+      "name": "Low Resolution Package Label",
+      "category": "PERCEPTION_LOW_RESOLUTION",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "case_id": "case_004",
+      "name": "Motion Blurred Capture",
+      "category": "PERCEPTION_BLUR",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "case_id": "case_005",
+      "name": "Reflective Specular Glare",
+      "category": "PERCEPTION_GLARE",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "case_id": "case_006",
+      "name": "Underexposed Low-Light Capture",
+      "category": "PERCEPTION_UNDEREXPOSED",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "case_id": "case_007",
+      "name": "Conflicting Retail Price Overprint",
+      "category": "ADJUDICATION_CONFLICT",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "case_id": "case_008",
+      "name": "Multiple Quantities Declaration",
+      "category": "NORMALIZATION_WEIGHTS",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "case_id": "case_009",
+      "name": "MRP Currency Variant & USP",
+      "category": "NORMALIZATION_MRP_USP",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "case_id": "case_010",
+      "name": "Distinct Manufacturer and Packer",
+      "category": "ENTITIES_MULTI_PARTY",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "case_id": "case_011",
+      "name": "Imported Commodity Missing Origin",
+      "category": "DEFECT_MISSING_ORIGIN",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "case_id": "case_012",
+      "name": "Comprehensive Consumer Care Cell",
+      "category": "COMPLIANT_CONSUMER_CARE",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "case_id": "case_013",
+      "name": "Multi-Region Distributed Layout",
+      "category": "GEOMETRY_MULTI_REGION",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "case_id": "case_014",
+      "name": "OCR Character Confusion Adjudication",
+      "category": "ADJUDICATION_CONFUSION",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "case_id": "case_015",
+      "name": "Manual Observation Fallback",
+      "category": "ADJUDICATION_MANUAL_ENTRY",
+      "passed": true,
+      "errors": []
+    }
+  ]
+}
